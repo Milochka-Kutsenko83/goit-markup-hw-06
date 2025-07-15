@@ -56,6 +56,98 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-clouse">
+            <svg class="mobile-icon-clouse" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-nav-list">
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="./index.html">Studio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address>
+            <ul class="mobile-contact-list">
+              <li class="mobile-contact-item">
+                <a class="mobile-contact-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobile-contact-item">
+                <a class="mobile-contact-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="soc-link-mobile">
+            <ul class="mobile-list-icons">
+              <li class="mobile-list-link-icons">
+                <a
+                  class="mobile-link-icons"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                >
+                  <svg class="mobile-icon-img" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="mobile-list-link-icons">
+                <a
+                  class="mobile-link-icons"
+                  href="https://twitter.com/"
+                  target="_blank"
+                >
+                  <svg class="mobile-icon-img" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="mobile-list-link-icons">
+                <a
+                  class="mobile-link-icons"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                >
+                  <svg class="mobile-icon-img" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="mobile-list-link-icons">
+                <a
+                  class="mobile-link-icons"
+                  href="https://ua.linkedin.com/"
+                  target="_blank"
+                >
+                  <svg class="mobile-icon-img" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -67,7 +159,7 @@
         </div>
       </section>
 
-      <section class="hidden-section">
+      <section class="hidden" class="hidden-section">
         <div class="container">
           <h2 class="visually-hidden" style="display: none">hidden header</h2>
           <ul class="title-section-page">
@@ -125,7 +217,7 @@
         </div>
       </section>
 
-      <section class="section-team" id="team">
+      <section class="hidden" class="section-team" id="team">
         <div class="container">
           <h2 class="title-team">Our Team</h2>
           <ul class="page-list-team">
@@ -363,7 +455,7 @@
         </div>
       </section>
 
-      <section class="section-portfolio">
+      <section class="hidden" class="section-portfolio">
         <div class="container">
           <h2 class="section-title-portfolio">Our Portfolio</h2>
           <ul class="section-list-portfolio">
@@ -469,7 +561,7 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="hidden" class="page-footer">
       <div class="container footer-cntr">
         <div class="container-logo-footer">
           <a class="logo footer-logo" href="./index.html"
@@ -552,7 +644,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="hidden" class="backdrop">
       <div class="modal">
         <button class="btn-clous" type="button">
           <svg class="icon-clouse" width="8" height="8">
