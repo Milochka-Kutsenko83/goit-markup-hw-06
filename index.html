@@ -159,7 +159,7 @@
         </div>
       </section>
 
-      <section class="hidden" class="hidden-section">
+      <section class="hidden-section">
         <div class="container">
           <h2 class="visually-hidden" style="display: none">hidden header</h2>
           <ul class="title-section-page">
@@ -217,240 +217,360 @@
         </div>
       </section>
 
-      <section class="hidden" class="section-team" id="team">
+      <section class="section-team" id="team">
         <div class="container">
           <h2 class="title-team">Our Team</h2>
           <ul class="page-list-team">
-            <li class="list-team">
-              <img src="./images/mark.jpg" alt="mark" width="264" />
-              <div class="name-team">
-                <h3 class="name">Mark Guerrero</h3>
-                <p class="section-page-team">Product Designer</p>
-                <ul class="list-icons">
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://www.instagram.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
+            <div class="container-page-team">
+              <li class="list-team">
+                <picture
+                  ><source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/foto.desk/team-desk-1.jpg    1x,
+                      ./images/foto.desk/team-desk-1@2x.jpg 2x
+                    "
+                  />
 
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://twitter.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/foto.tab/team-tab-1-min.jpg    1x,
+                      ./images/foto.tab/team-tab-1@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/foto.mobil/team-mob-1-min.jpg    1x,
+                      ./images/foto.mobil/team-mob-1@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/foto.desk/team-desk-1.jpg"
+                    alt="mark"
+                    width="264"
+                  />
+                </picture>
 
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://www.facebook.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
+                <div class="name-team">
+                  <h3 class="name">Mark Guerrero</h3>
+                  <p class="section-page-team">Product Designer</p>
+                  <ul class="list-icons">
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
 
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://ua.linkedin.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://twitter.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
 
-            <li class="list-team">
-              <img src="./images/tom.jpg" alt="tom" width="264" />
-              <div class="name-team">
-                <h3 class="name">Tom Ford</h3>
-                <p class="section-page-team">Frontend Developer</p>
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
 
-                <ul class="list-icons">
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://www.instagram.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://ua.linkedin.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </div>
 
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://twitter.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
+            <div class="container-page-team">
+              <li class="list-team">
+                <picture
+                  ><source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/foto.desk/team-desk-2.jpg    1x,
+                      ./images/foto.desk/team-desk-2@2x.jpg 2x
+                    "
+                  />
 
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://www.facebook.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/foto.tab/team-tab-2-min.jpg    1x,
+                      ./images/foto.tab/team-tab-2@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/foto.mobil/team-mob-2-min.jpg    1x,
+                      ./images/foto.mobil/team-mob-2@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/foto.desk/team-desk-2.jpg"
+                    alt="tom"
+                    width="264"
+                  />
+                </picture>
+                <div class="name-team">
+                  <h3 class="name">Tom Ford</h3>
+                  <p class="section-page-team">Frontend Developer</p>
 
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://ua.linkedin.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
+                  <ul class="list-icons">
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
 
-            <li class="list-team">
-              <img src="./images/camila.jpg" alt="camila" width="264" />
-              <div class="name-team">
-                <h3 class="name">Camila Garcia</h3>
-                <p class="section-page-team">Marketing</p>
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://twitter.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
 
-                <ul class="list-icons">
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://www.instagram.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
 
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://twitter.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://ua.linkedin.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </div>
+            <div class="container-page-team">
+              <li class="list-team">
+                <picture
+                  ><source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/foto.desk/team-desk-3.jpg    1x,
+                      ./images/foto.desk/team-desk-3@2x.jpg 2x
+                    "
+                  />
 
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://www.facebook.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/foto.tab/team-tab-3-min.jpg    1x,
+                      ./images/foto.tab/team-tab-3@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/foto.mobil/team-mob-3-min.jpg    1x,
+                      ./images/foto.mobil/team-mob-3@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/foto.desk/team-desk-3.jpg"
+                    alt="camila"
+                    width="264"
+                  />
+                </picture>
 
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://ua.linkedin.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
+                <div class="name-team">
+                  <h3 class="name">Camila Garcia</h3>
+                  <p class="section-page-team">Marketing</p>
 
-            <li class="list-team">
-              <img src="./images/daniei.jpg" alt="daniel" width="264" />
-              <div class="name-team">
-                <h3 class="name">Daniel Wilson</h3>
-                <p class="section-page-team">UI Designer</p>
+                  <ul class="list-icons">
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
 
-                <ul class="list-icons">
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://www.instagram.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://twitter.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
 
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://twitter.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
 
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://www.facebook.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://ua.linkedin.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </div>
+            <div class="container-page-team">
+              <li class="list-team">
+                <picture
+                  ><source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/foto.desk/team-desk-4.jpg    1x,
+                      ./images/foto.desk/team-desk-4@2x.jpg 2x
+                    "
+                  />
 
-                  <li class="list-link-icons">
-                    <a
-                      class="link-icons"
-                      href="https://ua.linkedin.com/"
-                      target="_blank"
-                    >
-                      <svg class="icon-img" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/foto.tab/team-tab-4-min.jpg    1x,
+                      ./images/foto.tab/team-tab-4@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/foto.mobil/team-mob-4-min.jpg    1x,
+                      ./images/foto.mobil/team-mob-4@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/foto.desk/team-desk-4.jpg"
+                    alt="daniel"
+                    width="264"
+                  />
+                </picture>
+                <div class="name-team">
+                  <h3 class="name">Daniel Wilson</h3>
+                  <p class="section-page-team">UI Designer</p>
+
+                  <ul class="list-icons">
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://twitter.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+
+                    <li class="list-link-icons">
+                      <a
+                        class="link-icons"
+                        href="https://ua.linkedin.com/"
+                        target="_blank"
+                      >
+                        <svg class="icon-img" width="16" height="16">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </div>
           </ul>
         </div>
       </section>
