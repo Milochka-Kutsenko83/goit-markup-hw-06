@@ -408,7 +408,7 @@ button{
 }
 @media (min-width: 1158px) and (min-resolution: 192dpi) {
 .title-page{
-        background-image: url(../images/foto.desk/people-office-desk@2x.jpg);
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/foto.desk/people-office-desk@2x.jpg);
     } 
 } 
 /*title page and*/
@@ -827,32 +827,49 @@ button{
 }
 
  @media screen and (min-width: 768px){
+
 .footer-cntr{
-   justify-content: space-between;
-   column-gap: 24px;
-   width: 584px;
+  justify-content: space-between;
+  column-gap: 24px;
+  row-gap: 72px;
+  width: 584px;
     }
 .container-footer-list{
     text-align: start;
-   
 }
 
 .footer-form{
-    display: flex;
-    align-items: center;
+   display: flex;
+   align-items: center;
    gap: 24px;
- 
 }
+.footer-input {
+  width: 264px;
+}
+    
 .footer-button{
-    display: flex;
- justify-content: center;
- align-items: center;
- margin-top: 0;
+   display: flex;
+   margin-top: 0;
 }
-
-
-}  
-
-
+} 
+@media screen and (min-width: 1158px){
+.footer-cntr {
+    flex-wrap: nowrap;
+    align-items:baseline;
+    justify-content: space-between;
+    width: 1158px;
+    margin: auto;
+       
+}
+.container-logo-footer {
+    margin-right: 120px;  
+}
+.container-footer-list{
+    margin-right: 80px;
+}
+ .footer-page-text{
+    width: 264px;
+ }
+}
  
 
