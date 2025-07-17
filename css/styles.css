@@ -531,6 +531,8 @@ button{
     border: 1px solid #ccc;
     width: 264px;
     height: 428px;
+   margin-bottom: 72px;
+    
 }
 
 .name-team {
@@ -592,6 +594,9 @@ button{
   row-gap: 64px;
   column-gap: 24px ;
     }
+.list-team{
+    margin-bottom: 0;
+}
 }
 @media screen and (min-width: 1158px){
 
